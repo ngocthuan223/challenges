@@ -1,0 +1,19 @@
+Chia bài toán thành 3 phần:
+1.Kiểm tra theo hàng
+2.Kiểm tra theo cột
+3.Kiểm tra theo mảng 3x3
+
+1.Kiểm tra theo hàng
+    +B1: Dùng vòng for thứ 1 để duyệt qua mảng sodoku và lấy các mảng con trong trong lớn
+    +B2: Dùng vòng for thứ 2 để duyệt qua các giá trị trong mảng con lấy từ B1.
+         Gắn giá trị đầu tiên của mảng vào 1 biến
+    +B3: Dùng vòng for thứ 3 (Bắt đầu từ vị trí 1) để kiểm tra lần lượt các giá trị còn lại 
+         trong mảng với biến từ B2. Nếu có 2 giá trị giống nhau thì return false ngược lại return true
+
+2.Kiểm tra theo cột
+    +B1: Chuyển đổi vị trí các giá trị trong mảng từ các cột thành các dòng
+    +b2: XỬ lý giống kiểm tra theo hàng
+
+3.Kiểm tra theo mảng 3x3
+    +B1: Chuyển các mảng 3x3 trong mảng lớn thành từng mảng nhỏ và lưu các mảng đó lần lượt vào 1 mảng tạm
+    +B2: Kiểm tra giống với trường hợp kiểm tra theo hàng
