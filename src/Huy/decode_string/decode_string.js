@@ -1,7 +1,7 @@
 const decodeString = (s) => {
     var result_string = ''
     var mult_string = ''
-    var input_array = []
+    var result_array = []
     var mult = []
 
     for (let element of s) {
@@ -13,12 +13,12 @@ const decodeString = (s) => {
                 mult.push(mult_string)
                 mult_string = ''
 
-                input_array.push(result_string)
+                result_array.push(result_string)
                 result_string = ''
             }
             else {
                 if (element === ']') {
-                    result_string = input_array.pop() + result_string.repeat(mult.pop())
+                    result_string = result_array.pop() + result_string.repeat(mult.pop())
 
                 }
                 else {
