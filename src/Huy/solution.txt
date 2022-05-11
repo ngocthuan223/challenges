@@ -1,0 +1,23 @@
+Đầu tiên em sẽ so sánh sự trùng lặp theo hàng ngang bằng cách:
+    - Lặp qua từng phần tử trong mảng được truyền vào
+    - Tạo một mảng tạm để lưu các giá trị không phải là "." theo từng hàng
+    - Lặp qua mảng tạm vừa tạo và gán giá trị đầu tiên của mảng tạm đó cho một biến tạm
+    - So sánh giá trị của biến tạm đó cho các phần tử còn lại của mảng tạm
+    - Nếu có sự trùng lặp sẽ trả về giá trị false và kết thúc chương trình
+    - Nếu không có sự trùng lặp thì tiếp tục so sánh theo cột dọc
+
+Sau khi pass so sánh trùng lặp theo hàng ngang thì tiếp tục so sánh theo cột dọc:
+    - Lặp qua từng phần tử trong mảng được truyển vào
+    - Tạo một mảng tạm để lưu các giá trị không phải là "." theo từng cột
+    - Lặp qua mảng tạm vừa tạo và gán giá trị đầu tiên của mảng tạm đó cho một biến tạm
+    - So sánh giá trị của biến tạm đó cho các phần tử còn lại của mảng tạm
+    - Nếu có sự trùng lặp sẽ trả về giá trị false và kết thúc chương trình
+    - Nếu không có sự trùng lặp thì tiếp tục so sánh theo nhóm 9 ô
+
+Sau khi pass so sánh trùng lặp theo cột dọc thì tiếp tục so sánh theo nhóm 9 ô:
+    - Lặp qua từng phần tử trong mảng được truyển vào
+    - Tạo một mảng tạm để lưu các giá trị không phải là "." theo nhóm 9 ô bắt đầu từ vị trí đầu tiên của mảng 2 chiều
+    - Lặp qua mảng tạm vừa tạo và gán giá trị đầu tiên của mảng tạm đó cho một biến tạm
+    - So sánh giá trị của biến tạm đó cho các phần tử còn lại của mảng tạm
+    - Nếu có sự trùng lặp sẽ trả về giá trị false và kết thúc chương trình
+    - Nếu không có sự trùng lặp thì trả về giá trị true và kết thúc chương trình
