@@ -1,0 +1,13 @@
+Dùng vòng for để kiểm tra lần lượt từng ký tự trong chuỗi
++ Nếu kí tự là số thì ta sẽ lưu vào 1 biến tạm (tmpRepeatNumber)
++ Nếu kí tự là dấu "[" thì ta sẽ lưu giá trị của biến tạm (tmpRepeatNumber) vào 1 mảng (repeatNumber[]) và gắn biến tmpRepeatNumber = "";
+  lưu giá trị của biến kết quả (result) vào 1 mảng (repeatString[]) và gắn biến result = "" 
++ Nếu kí tự là chữ thì sẽ gán kí tự đó cho biến kêt quả (result)
+
+- Ta cứ kiểm tra lần lượt các kí tự trong chuỗi cho tới khi gặp dấu "]", lúc đó ta sẽ có được 1 biến kết quả 
+  chứa các kí tự trong 1 []. Sau đó ta sẽ lấy giá trị cuối cùng trong mảng repeatNumber[] để lấy số lần lập và dùng repeat()
+  để tạo ra 1 chuỗi mới.
+- Sau khi có được chuỗi mới đó ta sẽ tiếp tục dùng pop() để lấy kí tự cuối cùng trong mảng repeatString[] để gán cho 
+  biến result và nối biến result với chuỗi được tạo ra khi dùng repeat
+
+Ta cứ làm tương tự các bước trên cho đến khi chạy hết vòng for ta sẽ có biến result chứa kết quả cuối cùng.
