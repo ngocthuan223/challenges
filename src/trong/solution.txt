@@ -1,0 +1,16 @@
+NGUYỄN TRƯƠNG ĐÌNH TRỌNG 
+HƯỚNG GIẢI CỦA BÀI TOÁN : 
+B1 : tạo vòng lập cho các hàng và cột 
+B2 : tạo ra 1 biến mới là cell để lưu trữ giá trị 
+B3 : thêm giá trị các cột con , hàng con và box thích hơp
+
+Thành quả :
+ kiểm tra các bản sao có thể hợp lý khi các vòng lập kết thúc việc thêm tất cả các giá trị vào các mảng của chúng ta và sau đó kiểm tra từng mảng xem có trùng lặp hay không
+. Điều này sẽ hiệu quả, nhưng nó có nghĩa là mã của chúng tôi sẽ phải duyệt qua toàn bộ bảng mọi lúc, bất kể bản sao có thể xuất hiện nhanh như thế nào
+. Một cách đẹp hơn sẽ là kiểm tra các bản sao mỗi khi chúng tôi tìm thấy một giá trị mới
+
+
+
+
+
+
