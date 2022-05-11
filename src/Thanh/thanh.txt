@@ -1,0 +1,4 @@
+Thanh 
+
+Tiếp theo hướng của em sẽ
+tạo ra một biến chưa các box ô 3x3 của hàng và cột rồi sẽ includes nếu có trùng trả về false và ngược lại
