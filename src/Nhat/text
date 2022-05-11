@@ -1,0 +1,4 @@
+e nghĩ là mảng to có 9 mảng nhỏ 3*3
+e sẽ check ô đó sao cho trong ô đó ko cosoos trùng từ 1 đến 9
+nếu có sẽ báo false và dừng check
+nếu ko sẽ lần lượt check từng ô và nếu ko bị trùng sẽ báo true
