@@ -1,0 +1,13 @@
+ 1. Lặp qua từng phần tử của string (item);
+
+ 2. Nếu item là number => push vào viết StackNumber;
+
+ 3. Nếu là character khác [ và ] nối strTemp;
+
+ 4. Nếu character = [ và ] push strTemp vào StackString và reset giá trị của strTemp;
+
+ sau cùng, sẽ nhận được StackNumber là 1 mảng chứa các số và StackNumber là 1 mảng chứa các string cần lặp;
+
+ lấy phần tử  của StackNumber để lặp số lần phần tử của StackNumber (lấy từ cuối) và lưu vào result;
+
+ Sau khi lặp qua bước ở trên, kiếm tra nếu StackNumber còn phần tử và StackString không có phần tử  thì sẽ dùng pt của StackNumber để lặp result;
