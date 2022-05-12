@@ -1,0 +1,12 @@
+Hướng Giải Quyết
+e sẽ tạo ra các biến và vòng lặp để lọc các giá trị số và chữ trong chuỗi dựa theo dấu []
+khi e đã có các biến chứa chữ và số e sẽ tiến hành cho số lần chữ hiển thị theo số
+Chi tiết cách làm:
+Đối với bài toán này e sẽ tạo ra biến chứa số ,biến chứa chữ  và vòng các vòng lặp để lọc phần tử trong chuỗi dựa trên dấu []
+vòng lặp đầu tiên sẽ lựa các phần tử trong chuỗi để đưa vào mảng cho đến lúc gặp dấu "]"
+nó sẽ chuyển xuống vong lặp thứ 2 
+vòng lặp này currChar sẽ lấy các phần tử của mảng stack và xem nếu như không phải dấu '[' ,nó sẽ đưa các phần tử ở currChar vào decoded
+đến khi gặp dấu " [" , nó sẽ chuyển đến vòng lặp thứ 3
+ở vòng lặp cuối cùng nó sẽ xét các phần tử xem có phải là số không nếu là số thì đưa vào biến Num.
+Tiếp theo thì  Stack sẽ lấy các giá trị ở currchar và cho chữ sẽ lặp lại theo số , tiếp tục  quy trình cho đến khi kết thúc chuỗi (s)
+và thực hiện nối các phần tử trong mảng stack lại ta sẽ đc kết quả
