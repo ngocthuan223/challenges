@@ -1,0 +1,6 @@
+- Kiểm tra lần lượt từng phần tử trong chuỗi đầu vào với 4 loại dữ liệu: chữ, số, dấu "[" và dấu "]"
+    - Nếu là chữ thì lưu giá trị của phần tử đó vào một biến kết quả (biến A)
+    - Nếu là số thì đẩy giá trị của phần tử đó vào một mảng tạm (mảng A) để xử lý số lần lặp chuỗi
+    - Nếu là dấu "[" thì đẩy giá trị của biến A vào một mảng tạm khác (mảng B) và gán giá trị rỗng cho biến A
+    - Nếu là dấu "]" thì lấy các giá trị trong mảng B cộng với giá trị của biến A đã được lặp với số lần lặp được lưu trong mảng A
+- Sau khi đã kiểm tra hết tất cả các phần tử trong chuỗi thì trả về kết quả là giá trị của biến A
