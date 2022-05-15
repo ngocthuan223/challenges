@@ -1,0 +1,10 @@
+//ex 
+// 3[a2[c]]
+
+//loop1 get 3 => case1 => CutNumber = 3
+//loop2 get [ => case2 => Numberlist = [3] , CutNumber = '', StringRepeat = [''], result = '';
+//loop3 get a => case4 => result = 'a'
+//loop4 get 2 => case1 => CutNumber = '2'
+//loop5 get [ => case2 => Numberlist = [3,2], CutNumber = '', StringRepeat = 'a',  result = '';
+//loop6 get c => case4 =>  result = 'c'
+//loop7 get ] => case3 => result = a + c.repeat(2) = acc , StringRepeat = '', Numberlist = [3];
